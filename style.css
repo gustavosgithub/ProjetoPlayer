@@ -1,0 +1,104 @@
+/* CONFIRGURAÇÃO DO BODY*/
+body, html{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: elastic;
+}
+
+/* IMAGEM */
+.capa{
+    width: 300px;
+    height: 300px;
+    border: 2px;
+    border-style: solid;
+    border-color: #1bdb0b;
+}
+
+/* DESCRIÇÃO */
+.descricao{
+    width: 300px;
+}
+h2{
+    margin-bottom: 5px;
+    color: #1bdb0b;
+}
+i{
+ color: #1bdb0b;   
+}
+/* BARRA DE DURAÇÃO */
+.duracao{
+    width: 300px;
+    margin-top: 20px;
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #1bdb0b;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+progress{
+    height: 6px;
+    width: 0%;
+    background-color: black;
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #1bdb0b;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: #1bdb0b;
+}
+
+/* PLAYER BOTÕES */
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.botao-play, .botao-pause{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.setas{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.botao-pause{
+    display: none;
+}
+
+/* Fonte*/
+@font-face {
+    font-family: elastic ;
+    src: url(/fontes/Elastic.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
