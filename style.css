@@ -89,7 +89,7 @@ progress{
 /* Fonte*/
 @font-face {
     font-family: elastic ;
-    src: url(/fontes/Elastic.otf);
+    src: url(./fontes/Elastic.otf);
 }
 
 
