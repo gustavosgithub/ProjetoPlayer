@@ -4,8 +4,8 @@ let musicas = [
     img:'capas/NEEFEX.jpg'},
     {titulo:'A Fever', artista:'Devon Church', src:'audio/A Fever.mp3',
     img:'capas/devonChurch.webp'},
-    {titulo:'Sink Whole Dream', artista:'The 129ers', src:'audio/Sunk Whole Dream.mp3',
-    img:'capas/the 129ers.webp'}
+    {titulo:'Sink Whole Dream', artista:'The 129ers', src:'audio/Sink Whole Dream.mp3',
+    img:'capas/the129ers.webp'}
 ]
 //NOMEANDO AS VARIÁVEIS
 let musica = document.querySelector('audio');
