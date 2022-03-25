@@ -1,11 +1,11 @@
 //ARRAY COM OS CONTEÚDOS
 let musicas = [
-    {titulo:'Dry Country', artista:'Bon Jovi', src:'audio/Dry Country.mp3',
-    img:'capas/keepTheFaith.jpg'},
-    {titulo:'These Days', artista:'Bon Jovi', src:'audio/These Days.mp3',
-    img:'capas/theseDays.webp'},
-    {titulo:'What About Now', artista:'Bon Jovi', src:'audio/What About Now.mp3',
-    img:'capas/whatAboutNow.webp'}
+    {titulo:'Born A Rockstar', artista:'NEFFEX', src:'audio/Born a Rockstar.mp3',
+    img:'capas/NEEFEX.jpg'},
+    {titulo:'A Fever', artista:'Devon Church', src:'audio/A Fever.mp3',
+    img:'capas/devonChurch.webp'},
+    {titulo:'Sink Whole Dream', artista:'The 129ers', src:'audio/Sunk Whole Dream.mp3',
+    img:'capas/the 129ers.webp'}
 ]
 //NOMEANDO AS VARIÁVEIS
 let musica = document.querySelector('audio');
