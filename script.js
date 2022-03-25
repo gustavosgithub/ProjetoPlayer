@@ -1,7 +1,7 @@
 //ARRAY COM OS CONTEÚDOS
 let musicas = [
     {titulo:'Dry Country', artista:'Bon Jovi', src:'audio/Dry Country.mp3',
-    img:'capas/KeepTheFaith.jpg'},
+    img:'capas/keepTheFaith.jpg'},
     {titulo:'These Days', artista:'Bon Jovi', src:'audio/These Days.mp3',
     img:'capas/theseDays.webp'},
     {titulo:'What About Now', artista:'Bon Jovi', src:'audio/What About Now.mp3',
