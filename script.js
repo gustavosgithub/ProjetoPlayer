@@ -73,6 +73,10 @@ function segundoParaMinutos(segundos){
     return campoMinutos + ':' +campoSegundos;
 }
 
+function muted(){
+    musica.muted = !musica.muted
+}
+
 this.volume = document.querySelector('#vol-control')
 this.volume.oninput = () => this.setVolume(this.volume.value)
 function setVolume(value){
