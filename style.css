@@ -65,6 +65,19 @@ progress{
 }
 
 /* PLAYER BOTÕES */
+
+.volume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.botao-volume{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
 .player{
     width: 300px;
     display: flex;
