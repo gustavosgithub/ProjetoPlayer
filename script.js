@@ -45,6 +45,7 @@ function renderizarMusica(index){
         imagem.src = musicas[index].img;
         duracaoMusica.textContent = 
     segundoParaMinutos(Math.floor(musica.duration));
+        tocarMusica()
     });
 }
 function tocarMusica(){
@@ -71,6 +72,13 @@ function segundoParaMinutos(segundos){
     }
     return campoMinutos + ':' +campoSegundos;
 }
+
+this.volume = document.querySelector('#vol-control')
+this.volume.oninput = () => this.setVolume(this.volume.value)
+function setVolume(value){
+    musica.volume = value / 100
+}
+
 function duration(){
     duracaoMusica.textContent = 
     segundoParaMinutos(Math.floor(musica.duration));
