@@ -63,6 +63,25 @@ progress{
     justify-content: space-between;
     color: #1bdb0b;
 }
+/* VOLUME */
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 13em;
+    height: 0.5em;
+    border-radius: 5px;
+    background-color: hsl(115, 97%, 44%);
+    outline: none;
+}
+#vol-control::-webkit-slider-thumb{
+    -webkit-appearance: none; /* remove a aparencia padão */
+    
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #054900;
+  }
 
 /* PLAYER BOTÕES */
 
