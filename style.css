@@ -45,10 +45,21 @@ i{
     align-items: center;
     justify-content: flex-start;
 }
-progress{
-    height: 6px;
-    width: 0%;
-    background-color: black;
+progress {
+    display:block;
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+    background: #1bdb0b;
+    height: 6.5px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+progress::-moz-progress-bar {  
+    background: #1bdb0b;
+    height: 6.5px;
+    border-radius: 6px;
+    margin-top: 5px;
 }
 .ponto{
     width: 20px;
