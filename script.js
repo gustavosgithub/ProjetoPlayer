@@ -14,6 +14,8 @@ let duracaoMusica= document.querySelector('.fim')
 let imagem = document.querySelector('.capa')
 let nomeMusica = document.querySelector('.descricao h2');
 let nomeArtista = document.querySelector('.descricao i');
+let barra = document.querySelector('#timer');
+let timeControling = false;
 
 //DESENCADEANDO EVENTOS
 renderizarMusica(indexMusica)
@@ -59,11 +61,24 @@ function pausarMusica(){
     document.querySelector('.botao-play').style.display = 'block';
 }
 function atualizarBarra(){
-    let barra = document.querySelector('progress');
-    barra.style.width = Math.floor((musica.currentTime / musica.duration) * 100) + '%' ;
+    if(!timeControling){
+        barra.value = (musica.currentTime / musica.duration);
+    }
     let tempoDecorrido = document.querySelector('.inicio')
     tempoDecorrido.textContent =  segundoParaMinutos(Math.floor(musica.currentTime))
 }
+
+barra.addEventListener('mousedown', () =>{
+    timeControling = true;
+});
+
+barra.addEventListener('mouseup', () => {
+    musica.currentTime = Math.floor(barra.value * musica.duration);
+    console.log(musica.currentTime);
+    timeControling = false;
+});
+
+
 function segundoParaMinutos(segundos){
     let campoMinutos = Math.floor(segundos/60);
     let campoSegundos = segundos % 60;
