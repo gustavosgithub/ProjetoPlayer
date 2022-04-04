@@ -75,6 +75,10 @@ progress::-moz-progress-bar {
     justify-content: space-between;
     color: #1bdb0b;
 }
+#timer{
+    width: 100%;
+    margin: 0px;
+}
 /* VOLUME */
 input[type=range] {
     -webkit-appearance: none;
